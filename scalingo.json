@@ -1,0 +1,16 @@
+{
+  "name": "agent-skills-telegram-bot",
+  "description": "Telegram Bot with Agent Skills",
+  "env": {
+    "TELEGRAM_BOT_TOKEN": {
+      "description": "Bot token dari BotFather",
+      "required": true
+    }
+  },
+  "formation": {
+    "worker": {
+      "amount": 1,
+      "size": "S"
+    }
+  }
+}
